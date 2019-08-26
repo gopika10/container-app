@@ -3,7 +3,17 @@
 </header>
 <div class="main">
   <aside>
-    <lib-MfSidebar></lib-MfSidebar>
+    <ul>
+      <li>
+        <a routerLink="/apps">Apps</a>
+      </li>
+      <li>
+        <a routerLink="/developers">Developers</a>
+      </li>
+      <li>
+        <mf-sidebar></mf-sidebar>
+      </li>
+    </ul>
   </aside>
-  <lib-MfWorkspace></lib-MfWorkspace>
+  <router-outlet></router-outlet>
 </div>
