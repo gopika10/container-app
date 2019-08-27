@@ -3,7 +3,6 @@ import {Routes, RouterModule} from '@angular/router';
 import {DevelopersComponent} from './developers/developers.component';
 import {BrowserModule} from '@angular/platform-browser';
 
-
 const routes: Routes = [{
   path: 'developers',
   component: DevelopersComponent
